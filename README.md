@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Study Assistant
 
 A **plain JavaScript React** app that turns free-form notes into interactive flashcards and quizzes. The AI returns structured JSON (not chat text), which the app validates and renders as stateful UI.
@@ -106,3 +107,6 @@ Cursor was used to scaffold components, draft the README, and speed up boilerpla
 ## License
 
 MIT
+=======
+# Study-assistent
+>>>>>>> faffebd0f683f5cdf3d2dc14d9a9b6b3374d692e
