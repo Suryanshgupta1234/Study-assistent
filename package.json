@@ -1,0 +1,16 @@
+{
+  "name": "study-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered study assistant with flashcards and quizzes",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server",
+    "postinstall": "npm install --prefix client && npm install --prefix server",
+    "start": "concurrently \"npm run start --prefix server\" \"npm run dev --prefix client\"",
+    "dev": "npm start",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
