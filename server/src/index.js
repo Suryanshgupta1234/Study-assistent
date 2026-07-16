@@ -20,5 +20,5 @@ app.get("/api/health", (_req, res) => {
 app.use("/api/generate", generateRouter);
 
 app.listen(PORT, () => {
-  console.log(`Study assistant API listening on http://localhost:${PORT}`);
+  console.log(`Study assistant API listening on port ${PORT}`);
 });
